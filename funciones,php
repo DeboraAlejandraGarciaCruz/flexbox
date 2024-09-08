@@ -106,4 +106,85 @@ const tiempo = () =>{
 }
 
 
+const destructurarObjeto = () => {
+    const tiendaCosmenticos= {
+        nombreTienda: "Cosmeticos AlmaGaby S.A de C.V", 
+        redesSociales:{
+            facebook: "https://cosmeticos.almagaby.facebook.com",
+            instagram:"https://cosmeticos.almagaby.instagram.com", 
+            x: "@almagaby"
+        },
+        contacto:{
+            WhatsApp: "5512364789",
+            email:["cosmeticos.almagaby@gmail.com","almagaby.cosmeticos@outlook" ]
+        },
+
+        perfumes: {
+        mujeres: {
+            perfume1:{
+                nombre: "Diablito",
+                precio: "800",
+                tamanio: "100ml"
+            }, 
+
+            perfume2:{
+                nombre: "Chanel No.5",
+                precio: "2500",
+                tamanio: "250ml"
+            }           
+        }, 
+
+        hombres: {
+            perfume1:{
+                nombre: "7 machos",
+                precio: "1200",
+                tamanio: "100ml"
+            }, 
+
+            perfume2:{
+                nombre: "212 Carolina Herrera",
+                precio: "1400",
+                tamanio: "100ml"
+            }           
+        }
+    }
+  }
+  /*let mujerNombrePerfume1= tiendaCosmenticos.perfumes.mujeres.perfume1.nombre;
+  let mujerPrecioPerfume1= tiendaCosmenticos.perfumes.mujeres.perfume1.precio;
+  let mujerTamanioPerfume1= tiendaCosmenticos.perfumes.mujeres.perfume1.tamanio;
+
+  console.log(`Nombre de tienda:${tiendaCosmenticos.nombreTienda}
+  Perfume 1: ${mujerNombrePerfume1}
+  Precio: ${mujerPrecioPerfume1}
+  Tamaño: ${mujerTamanioPerfume1}
+  `);
+  const{nombre, precio, tamanio}=tiendaCosmenticos.perfumes.hombres.perfume2;
+  console.log(`Perfume hombre No.2
+  Nombre: ${nombre}
+  Precio: ${precio}
+  Tamaño: ${tamanio}
+  `);*/
+
+  const{nombreTienda}=tiendaCosmenticos;
+  const{facebook, instagram, x}=tiendaCosmenticos.redesSociales;
+  const{WhatsApp, email}=tiendaCosmenticos.contacto;
+  const{nombre, precio, tamanio}=tiendaCosmenticos.perfumes.mujeres.perfume2;
+  console.log(`
+  Nombre: ${nombreTienda}
+  Redes Sociales: 
+  facebook: ${facebook}
+  instagram: ${instagram}
+  x: ${x}
+  Contacto:
+  WhatsApp: ${WhatsApp}
+  email: 
+  email 1: ${email[0]}
+  email 2:${email[1]}
+  Perfume mujer No.2
+  Nombre: ${nombre}
+  Precio: ${precio}
+  Tamaño: ${tamanio} 
+  `);
+}
+
 //Nombre de la tienda, redes sociales, contacto Whats, Correos, perfume 2 de mujer
