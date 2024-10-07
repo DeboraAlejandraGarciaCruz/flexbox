@@ -17,3 +17,20 @@ El proyecto **maquetados_flexbox_template** es una plantilla de diseño creada c
 3. Modifica las clases y estilos en el archivo `styles.css` según tus necesidades para crear un diseño personalizado.
 4. Integra esta plantilla en tus proyectos web para lograr diseños flexibles y adaptables.
 
+## Ejemplos de Uso en Páginas Web
+
+El **maquetados_flexbox_template** es perfecto para:
+
+- **Páginas de Servicios**: Organiza secciones de servicios, características y testimonios con una alineación clara y coherente.
+- **Landing Pages**: Diseña una página de aterrizaje con contenido dinámico que se ajuste fácilmente a diferentes tamaños de pantalla.
+- **Diseño de Formularios**: Crea formularios de contacto o registro con una disposición fluida y alineada que mejore la experiencia del usuario.
+
+## Estructura del Proyecto
+
+- `index.html`: Contiene la estructura principal de la página utilizando Flexbox para el diseño.
+- `styles.css`: Incluye las reglas de estilo para la disposición flexible de los elementos, con configuraciones de alineación y justificación.
+
+## Autor
+
+Debora Alejandra
+
