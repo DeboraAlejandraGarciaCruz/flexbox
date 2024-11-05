@@ -32,5 +32,5 @@ El **maquetados_flexbox_template** es perfecto para:
 
 ## Autor
 
-Debora Alejandra Gar
+Debora Alejandra Garc
 
