@@ -33,4 +33,4 @@ El **maquetados_flexbox_template** es perfecto para:
 ## Autor
 
 Débora Alejandra García Cruz. 
-1 2 3 4 5 6
+1 2 3 4 5 6 7
